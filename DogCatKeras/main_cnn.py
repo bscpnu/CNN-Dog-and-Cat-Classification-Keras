@@ -11,6 +11,8 @@ from sklearn.metrics import roc_auc_score
 from sklearn.metrics import accuracy_score
 import numpy as np
 
+## author: Imam Mustafa Kamal
+## email: imamkamal52@gmail.com
 
 def cnn_model(data_train, img_size):
     model = Sequential()
